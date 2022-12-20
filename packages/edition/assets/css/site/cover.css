@@ -67,7 +67,7 @@ body:not(.with-full-cover) .cover {
 
 .cover-sub-description {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .cover-cta {
@@ -121,6 +121,10 @@ body:not(.with-full-cover) .cover {
 @media (max-width: 767px) {
     .cover-description {
         font-size: 2.7rem;
+    }
+
+    .cover-sub-description {
+        font-size: 2rem;
     }
 }
 
