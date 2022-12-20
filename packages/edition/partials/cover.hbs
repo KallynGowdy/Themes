@@ -9,7 +9,17 @@
                 {{#if @custom.email_signup_text}}
                     {{@custom.email_signup_text}}
                 {{else}}
-                    {{@site.description}}
+                    {{#if @custom.homepage_title_hook}}
+                        {{@custom.homepage_title_hook}}
+
+                        {{#if @custom.homepage_subtitle_hook}}
+                            <div class="cover-sub-description">
+                                {{@custom.homepage_subtitle_hook}}
+                            </div>
+                        {{/if}}
+                    {{else}}
+                        {{@site.description}}
+                    {{/if}}
                 {{/if}}
             </div>
         {{/if}}

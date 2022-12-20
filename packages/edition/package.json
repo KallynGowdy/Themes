@@ -1,7 +1,7 @@
 {
     "name": "edition",
     "description": "A clean, minimal newsletter theme for the Ghost publishing platform",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -61,6 +61,14 @@
                     "Elegant serif"
                 ],
                 "default": "Modern sans-serif"
+            },
+            "homepage_title_hook": {
+                "type": "text",
+                "group": "homepage"
+            },
+            "homepage_subtitle_hook": {
+                "type": "text",
+                "group": "homepage"
             },
             "email_signup_text": {
                 "type": "text",

@@ -65,6 +65,11 @@ body:not(.with-full-cover) .cover {
     color: #fff;
 }
 
+.cover-sub-description {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
 .cover-cta {
     display: flex;
     margin-top: 2rem;
