@@ -4,6 +4,10 @@
     min-height: 100vh;
 }
 
+.with-full-cover.is-head-brand .site-content {
+    padding: 0 0;
+}
+
 .site-content {
     flex-grow: 1;
     padding: 6vmin 0;
