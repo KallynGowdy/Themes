@@ -16,3 +16,12 @@
 .is-head-brand .site-content {
     padding-top: max(8vmin, 5rem);
 }
+
+.gh-foot-items {
+    display: flex;
+}
+
+.gh-foot-location {
+    max-width: 500px;
+    text-align: center;
+}
